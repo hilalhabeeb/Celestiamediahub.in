@@ -44,31 +44,31 @@ https://templatemo.com/tm-595-3d-coverflow
         // Image data with titles and descriptions
         const imageData = [
             {
-                title: "Mountain Landscape",
+                title: "Branding",
                 description: "Majestic peaks covered in snow during golden hour"
             },
             {
-                title: "Forest Path",
+                title: "Adfilm",
                 description: "A winding trail through ancient woodland"
             },
             {
-                title: "Lake Reflection",
+                title: "Posters",
                 description: "Serene waters mirroring the surrounding landscape"
             },
             {
-                title: "Ocean Sunset",
+                title: "Video Production",
                 description: "Golden hour over endless ocean waves"
             },
             {
-                title: "Desert Dunes",
+                title: "Event Management",
                 description: "Rolling sand dunes under vast blue skies"
             },
             {
-                title: "Starry Night",
+                title: "ERP & Custom Websites",
                 description: "Countless stars illuminating the dark sky"
             },
             {
-                title: "Waterfall",
+                title: "Digital Marketing",
                 description: "Cascading water through lush green forest"
             }
         ];
@@ -380,4 +380,5 @@ https://templatemo.com/tm-595-3d-coverflow
         // Initialize
         updateCoverflow();
         container.focus();
+
         startAutoplay();
