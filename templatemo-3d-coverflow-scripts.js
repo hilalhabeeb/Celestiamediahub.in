@@ -16,7 +16,7 @@ https://templatemo.com/tm-595-3d-coverflow
         const container = document.querySelector('.coverflow-container');
         const menuToggle = document.getElementById('menuToggle');
         const mainMenu = document.getElementById('mainMenu');
-        let currentIndex = 3;
+        let currentIndex = 0;
         let isAnimating = false;
 
         // Mobile menu toggle
@@ -52,16 +52,12 @@ https://templatemo.com/tm-595-3d-coverflow
                 description: "We craft with cinematic vision!"
             },
             {
-                title: "Events",
-                description: "Turning your moments into beautiful, carefree, and unforgettable celebrations!"
+                title: "Branding",
+                description: "Elevate your brand to a global level with us!"
             },
             {
                 title: "Posters",
                 description: "Our designs inspire customer connection and transform it into lasting demand."
-            },
-            {
-                title: "Branding",
-                description: "Elevate your brand to a global level with us!"
             },
             {
                 title: "Digital Marketing",
@@ -78,7 +74,11 @@ https://templatemo.com/tm-595-3d-coverflow
             {
                 title: "Custom Websites",
                 description: "Designing stunning, responsive, and functional websites tailored to your goals."
-            }
+            },
+            {
+                title: "Events",
+                description: "Turning your moments into beautiful, carefree, and unforgettable celebrations!"
+            },
         ];
 
 
