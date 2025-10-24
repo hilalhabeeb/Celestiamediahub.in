@@ -44,34 +44,43 @@ https://templatemo.com/tm-595-3d-coverflow
         // Image data with titles and descriptions
         const imageData = [
             {
-                title: "Branding",
-                description: "Majestic peaks covered in snow during golden hour"
+                title: "Video Production",
+                description: "Beyond the event, beyond the moment!"
             },
             {
                 title: "Adfilm",
-                description: "A winding trail through ancient woodland"
+                description: "We craft with cinematic vision!"
+            },
+            {
+                title: "Events",
+                description: "Turning your moments into beautiful, carefree, and unforgettable celebrations!"
             },
             {
                 title: "Posters",
-                description: "Serene waters mirroring the surrounding landscape"
+                description: "Our designs inspire customer connection and transform it into lasting demand."
             },
             {
-                title: "Video Production",
-                description: "Golden hour over endless ocean waves"
-            },
-            {
-                title: "Event Management",
-                description: "Rolling sand dunes under vast blue skies"
-            },
-            {
-                title: "ERP & Custom Websites",
-                description: "Countless stars illuminating the dark sky"
+                title: "Branding",
+                description: "Elevate your brand to a global level with us!"
             },
             {
                 title: "Digital Marketing",
-                description: "Cascading water through lush green forest"
+                description: "Boost your reach, visibility, and brand engagement through smart digital strategy."
+            },
+            {
+                title: "Short Films & Web Series",
+                description: "Creative storytelling that captivates audiences and brings ideas to life."
+            },
+            {
+                title: "ERP Business Solutions",
+                description: "Empowering your business with customized, efficient, and scalable ERP systems."
+            },
+            {
+                title: "Custom Websites",
+                description: "Designing stunning, responsive, and functional websites tailored to your goals."
             }
         ];
+
 
         // Create dots
         items.forEach((_, index) => {
@@ -382,3 +391,4 @@ https://templatemo.com/tm-595-3d-coverflow
         container.focus();
 
         startAutoplay();
+
